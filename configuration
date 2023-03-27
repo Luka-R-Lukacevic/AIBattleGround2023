@@ -1,0 +1,5 @@
+usernames:admin,player1,player2
+passwords:admin,sifra1,sifra2
+types:A,P,P
+noOfPlayers: 2
+logicAddress:http://localhost:8085/logic
