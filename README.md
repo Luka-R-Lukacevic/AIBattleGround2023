@@ -17,10 +17,52 @@ The game has the following rules that vary from chess:
 ## The Pieces
 We have a number of new pieces with new rules.
 
-### Drunken Pawn (12 pieces)
+### Drunken Pawn (amount: 12)
 ![Drunken Pawn](images/DrunkenPawn.jpeg)
 * Moves diagonally (like in the image) either one or two steps
+* Captures only pieces in front of him
+* Is stationary once he reaches the end of the board (cannot turn into another piece)
+
+### King (amount: 1)
+![King](images/King.jpeg)
+* Moves regularly (like in normal chess)
+* Once he is captured the game is over
+
+### Queen (amount: 2)
+![Queen](images/Queen.jpeg)
+* Moves regularly like a normal queen
+* Always has to go to the maximum possible tile (either going to the edge of the board, stopping one short of own pieces or capturing an opposing piece)
+
+### Brick (amount: 1)
+![Brick](images/Brick.jpeg)
+* Moves like the king
+* Cannot be captured nor otherwise destroyed
+* Cannot capture other pieces itself
+
+### Bishop (amount: 2)
+![Bishop](images/Bishop.jpeg)
+* Moves regularly like a normal bishop
+* If he is captured, al diagonal neighbors are also captured (except for kind and brick)
+
+### Crazy Horse (amount: 2)
+![Crazy Horse](images/CrazyHorse.jpeg)
+* Moves 3 ahead and 1 to the side (instead of 2+1 normally)
+
+### TopG (amount: 2)
+![TopG](images/TopG.jpeg)
+* Moves like a regular rook
+* If he captures a piece, any (opposing or not) piece behind it will also be captured (except for the brick)
 
 
+### Lethal Sniper (amount: 1)
+![Lethal Sniper](images/LethalSniper.jpeg)
+* Can move 2 tiles in any non-diagonal direction (without jumping other pieces)
+* Stays in places if capturing another piece
+
+
+### Kamikaze (amount: 1)
+![Kamikaze](images/Kamikaze.jpeg)
+* Can move 2 tiles in any diagonal direction (allowed to jump other pieces)
+* If he captures a piece, kills himself (and vanishes from the board) and non-diagonal neighbors (regardless of color)
 
 https://drive.google.com/drive/folders/1ILj53JZHr4Tn6v6PQRTJOtGcIvqSbm2n?usp=sharing
