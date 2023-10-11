@@ -18,62 +18,62 @@ The game has the following rules that vary from chess:
 We have a number of new pieces with new rules.
 
 ### Drunken Pawn (amount: 12)
-![Drunken Pawn](images/DrunkenPawn.jpeg){:width="200px" height="200px"}
+<img src="images/DrunkenPawn.jpeg" width="300" height="300">
 * Moves diagonally (like in the image) either one or two steps
 * Captures only pieces in front of him
 * Is stationary once he reaches the end of the board (cannot turn into another piece)
 
 ### King (amount: 1)
-![King](images/King.jpeg){:width="200px" height="200px"}
+<img src="images/King.jpeg" width="300" height="300">
 * Moves regularly (like in normal chess)
 * Once he is captured the game is over
 
 ### Queen (amount: 2)
-![Queen](images/Queen.jpeg){:width="200px" height="200px"}
+<img src="images/Queen.jpeg" width="400" height="400">
 * Moves regularly like a normal queen
 * Always has to go to the maximum possible tile (either going to the edge of the board, stopping one short of own pieces or capturing an opposing piece)
 
 ### Brick (amount: 1)
-![Brick](images/Brick.jpeg){:width="200px" height="200px"}
+<img src="images/Brick.jpeg" width="150" height="150">
 * Moves like the king
 * Cannot be captured nor otherwise destroyed
 * Cannot capture other pieces itself
 
 ### Bishop (amount: 2)
-![Bishop](images/Bishop.jpeg){:width="200px" height="200px"}
+<img src="images/Bishop.jpeg" width="150" height="150">
 * Moves regularly like a normal bishop
 * If he is captured, al diagonal neighbors are also captured (except for kind and brick)
 
 ### Crazy Horse (amount: 2)
-![Crazy Horse](images/CrazyHorse.jpeg){:width="200px" height="200px"}
+<img src="images/CrazyHorse.jpeg" width="150" height="150">
 * Moves 3 ahead and 1 to the side (instead of 2+1 normally)
 
 ### TopG (amount: 2)
-![TopG](images/TopG.jpeg){:width="200px" height="200px"}
+<img src="images/TopG.jpeg" width="150" height="150">
 * Moves like a regular rook
 * If he captures a piece, any (opposing or not) piece behind it will also be captured (except for the brick)
 
 
 ### Lethal Sniper (amount: 1)
-![Lethal Sniper](images/LethalSniper.jpeg){:width="200px" height="200px"}
+<img src="images/LethalSniper.jpeg" width="150" height="150">
 * Can move 2 tiles in any non-diagonal direction (without jumping other pieces)
 * Stays in places if capturing another piece
 
 
 ### Kamikaze (amount: 1)
-![Kamikaze](images/Kamikaze.jpeg){:width="200px" height="200px"}
+<img src="images/Kamikaze.jpeg" width="350" height="350">
 * Can move 2 tiles in any diagonal direction (allowed to jump other pieces)
 * If he captures a piece, kills himself (and vanishes from the board) and non-diagonal neighbors (regardless of color)
 
-<img src="images/DrunkenPawn.jpeg" width="150" height="150">
-<img src="images/King.jpeg" width="150" height="150">
-<img src="images/Queen.jpeg" width="150" height="150">
-<img src="images/Brick.jpeg" width="150" height="150">
-<img src="images/Bishop.jpeg" width="150" height="150">
-<img src="images/CrazyHorse.jpeg" width="150" height="150">
-<img src="images/TopG.jpeg" width="150" height="150">
-<img src="images/LethalSniper.jpeg" width="150" height="150">
-<img src="images/Kamikaze.jpeg" width="150" height="150">
+
+
+
+
+
+
+
+
+
 
 
 https://drive.google.com/drive/folders/1ILj53JZHr4Tn6v6PQRTJOtGcIvqSbm2n?usp=sharing
