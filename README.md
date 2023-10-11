@@ -18,7 +18,7 @@ The game has the following rules that vary from chess:
 We have a number of new pieces with new rules.
 
 ### Drunken Pawn (12 pieces)
-![Drunken Pawn](images/DrunkenPawn.png)
+![Drunken Pawn](images/DrunkenPawn.jpeg)
 * Moves diagonally (like in the image) either one or two steps
 
 
