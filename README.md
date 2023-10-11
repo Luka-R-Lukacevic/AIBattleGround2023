@@ -65,4 +65,15 @@ We have a number of new pieces with new rules.
 * Can move 2 tiles in any diagonal direction (allowed to jump other pieces)
 * If he captures a piece, kills himself (and vanishes from the board) and non-diagonal neighbors (regardless of color)
 
+<img src="images/DrunkenPawn.jpeg" width="150" height="150">
+<img src="images/King.jpeg" width="150" height="150">
+<img src="images/Queen.jpeg" width="150" height="150">
+<img src="images/Brick.jpeg" width="150" height="150">
+<img src="images/Bishop.jpeg" width="150" height="150">
+<img src="images/CrazyHorse.jpeg" width="150" height="150">
+<img src="images/TopG.jpeg" width="150" height="150">
+<img src="images/LethalSniper.jpeg" width="150" height="150">
+<img src="images/Kamikaze.jpeg" width="150" height="150">
+
+
 https://drive.google.com/drive/folders/1ILj53JZHr4Tn6v6PQRTJOtGcIvqSbm2n?usp=sharing
