@@ -638,19 +638,24 @@ def react(board, color, boardNumber):
 
 
 def visualize_board(board):
-    print("    0 -  - 1 -  - 2 - - 3 -  - 4 -  - 5 - - 6 -  - 7 -  - 8 - - 9 -  - 10 -  - 11")
-    print("  -----------------------")
+    row_format = "{:>3} | {}"
+    
+    print("      0 -- 1 -- 2 -- 3 -- 4 -- 5 -- 6 -- 7 -- 8 -- 9 -- 10 --11")
+    
     for i in range(12):
-        row = " - "
+        row = ""
         for j in range(12):
             if board[i][j] is None:
-                row += "* "
+                row += "**"
             else:
                 row += board[i][j]
-            row += " - "
-        print(f"{i} |{row}| {i}")
-    print("  -----------------------")
-    print("    0 -  - 1 -  - 2 - - 3 -  - 4 -  - 5 - - 6 -  - 7 -  - 8 - - 9 -  - 10 -  - 11")
+            row += " | "  # Separate squares with '|'
+        
+        print(row_format.format(i, row))
+    
+    print("      0 -- 1 -- 2 -- 3 -- 4 -- 5 -- 6 -- 7 -- 8 -- 9 -- 10 --11")
+
+
 
 
 if __name__ == '__main__':
@@ -660,6 +665,8 @@ if __name__ == '__main__':
     while True:
         i = int(input("i ->"))
         j = int(input("j ->"))
+        print("Figure selected: ", board[i][j])
+        print(moves(i,j,board))
         M = input("Move ->")
         make_a_move(i, j, board, M, True)
         i, j, M, val = getScore(board, "B", True)

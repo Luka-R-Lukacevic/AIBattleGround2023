@@ -10,12 +10,12 @@ The game has the following rules that vary from chess:
 * 12x12 dimension
 * There is no chess, you have to capture the opposing king
 * There are two phases to a game
- * In phase 1 of the game you put all the pieces on the board
- * In phase 2 you start moving the pieces like in regular chess
- * Pieces in the back rank do not have to be positioned to some fixed rule but can be put in any order
+* In phase 1 of the game you put all the pieces on the board
+* In phase 2 you start moving the pieces like in regular chess
+* Pieces in the back rank do not have to be positioned to some fixed rule but can be put in any order
 
 ## The Pieces
-We have a number of new pieces with new rules.
+We have a number of new pieces with new rules. Note that due to phase 1 there is no way to castle. Also, there is no en-passant.
 
 ### Drunken Pawn (amount: 12)
 <img src="images/DrunkenPawn.jpeg" width="400" height="400">

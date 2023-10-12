@@ -432,6 +432,7 @@ def make_a_move(i, j, board, nextMove, boardNumber):
         board[next_i][next_j] = figure
     else:
         board[next_i][next_j] = None
+    print(board)
 
 
 def isLegalForPut(board, figure, i, j, boardNumber):  # only call if inventory is not empty
