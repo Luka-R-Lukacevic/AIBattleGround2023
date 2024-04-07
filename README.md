@@ -3,7 +3,7 @@
 This project is a result of the AI Battleground Zagreb 2023 hackathon. The project finished joint first place for a prize money of 800€. Changes have been made for better presentability of the results.
 
 ## The Task
-The task at hand was to create a bot that will play a chess variation with custom rules.
+The task at hand was to create a bot that will play a chess variation with custom rules. The rules of the game were determined by BEST.
 
 ## The Game
 The game has the following rules that vary from chess:
